@@ -20,12 +20,13 @@ h1:hover {
   border-radius: 5px;
   border: 1px solid black;
   padding: 2px;
-  color: white;
   background-color: #00A7E1;
+  color: white;
 }
 
 .blockButton:hover {
-
+  background-color: #0FF4C6;
+  color: white;
 }
 
 main > div {
