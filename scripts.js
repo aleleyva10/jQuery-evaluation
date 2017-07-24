@@ -58,7 +58,6 @@ var deleteBlock = function() {
   }
 };
 
-
 function onReady() {
   $('.blockButton').on("click", addBlock);
   $('main').on('click', '.color-cube', deleteBlock);

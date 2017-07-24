@@ -14,6 +14,7 @@ h1:hover {
 .color-block {
   text-align: center;
 }
+
 .blockButton {
   height: 3em;
   width: 4em;
@@ -26,7 +27,7 @@ h1:hover {
 
 .blockButton:hover {
   background-color: #0FF4C6;
-  color: white;
+  color: black;
 }
 
 main > div {
