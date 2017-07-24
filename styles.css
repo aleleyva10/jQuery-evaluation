@@ -14,7 +14,19 @@ h1:hover {
 .color-block {
   text-align: center;
 }
+.blockButton {
+  height: 3em;
+  width: 4em;
+  border-radius: 5px;
+  border: 1px solid black;
+  padding: 2px;
+  color: white;
+  background-color: #00A7E1;
+}
 
+.blockButton:hover {
+
+}
 
 main > div {
   width: 50px;
