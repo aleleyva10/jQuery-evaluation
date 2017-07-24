@@ -40,12 +40,22 @@ var addBlock = function() {
 };
 
 var deleteBlock = function() {
-  console.log('deleted block');
   $(this).remove();
-  redCount++;
-  blueCount++;
-  greenCount--;
-  yellowCount--;
+  console.log($(this).attr('class'));
+  if($(this).attr('class') === 'color-cube red'){
+    redCount--;
+    $('#red').text(redCount);
+    console.log('You deleted a red block');
+  } else if($(this).attr('class') === 'color-cube blue'){
+    blueCount--;
+    $('#blue').text(blueCount);
+  } else if($(this).attr('class') === 'color-cube green'){
+    greenCount--;
+    $('#green').text(greenCount);
+  } else if($(this).attr('class') === 'color-cube yellow'){
+    yellowCount--;
+    $('#yellow').text(yellowCount);
+  }
 };
 
 
